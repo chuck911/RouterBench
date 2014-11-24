@@ -1,12 +1,15 @@
 {
 	"require": {
 		"nikic/fast-route": "dev-master",
-		"athletic/athletic": "dev-master"
+		"athletic/athletic": "dev-master",
+    "corneltek/pux": "~1.5",
+    "corneltek/cliframework": "*"
 	},
 	"autoload": {
 		"psr-4": {
 			"RouterBench\\": "src/",
 			"Haojing\\": "lib/haojing/",
+      "PuxSpeedup\\":"lib/PuxSpeedup/"
 		}
 	}
 }
